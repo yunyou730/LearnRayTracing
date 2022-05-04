@@ -1,4 +1,4 @@
-#include "vec3_utility.h"
+#include "utility.h"
 
 std::ostream& operator<<(std::ostream& out, const vec3& v) {
 	return out << v.e[0] << ' ' << v.e[1] << ' ' << v.e[2];
@@ -50,4 +50,9 @@ void write_color(std::ostream& out, color pixel_color) {
 	out << static_cast<int>(255.999 * pixel_color.x()) << ' '
 		<< static_cast<int>(255.999 * pixel_color.y()) << ' '
 		<< static_cast<int>(255.999 * pixel_color.z()) << '\n';
+}
+
+
+double degrees_to_radians(double degrees) {
+	return degrees * pi / 180.0;
 }

@@ -24,7 +24,10 @@
     <ClCompile Include="sphere.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vec3_utility.cpp">
+    <ClCompile Include="utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hittable_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +35,7 @@
     <ClInclude Include="vec3.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="vec3_utility.h">
+    <ClInclude Include="utility.h">
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="ray.h">
@@ -42,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="sphere.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable_list.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
